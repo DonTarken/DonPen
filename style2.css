@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'monaco';
+    src: url("Monaco.ttf");
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'monaco', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 10%;
+    min-height: 10%;
+    background-color: #262626;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px red;
+    z-index: 500;
+    position: absolute;
+    top: 0;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+}
+#iframe{
+    width: 70%;
+    padding: 0;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    background-color: gray;
+    padding: 10px;
+}
+textarea{
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    padding: 20px;
+    resize: none;
+    color: white;
+    background: #1d1e22;
+    line-height: 150%;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray inset;
+}
+iframe{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
